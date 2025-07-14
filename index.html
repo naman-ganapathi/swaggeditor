@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swaggeditor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        'dracula-bg': '#282a36',
+                        'dracula-current': '#44475a',
+                        'dracula-fg': '#f8f8f2',
+                        'dracula-comment': '#6272a4',
+                        'dracula-cyan': '#8be9fd',
+                        'dracula-green': '#50fa7b',
+                        'dracula-orange': '#ffb86c',
+                        'dracula-pink': '#ff79c6',
+                        'dracula-purple': '#bd93f9',
+                        'dracula-red': '#ff5555',
+                        'dracula-yellow': '#f1fa8c',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['Fira Code', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', "Liberation Mono", "Courier New", 'monospace'],
+                    }
+                },
+            },
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-gray-50 dark:bg-dracula-bg text-gray-800 dark:text-dracula-fg font-sans antialiased">
+    <div id="root"></div>
+    <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.2.0",
+    "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+    "lodash-es/get": "https://esm.sh/lodash-es@4.17.21/get.js",
+    "lodash-es/set": "https://esm.sh/lodash-es@4.17.21/set.js",
+    "lodash-es/cloneDeep": "https://esm.sh/lodash-es@4.17.21/cloneDeep.js",
+    "lodash-es/debounce": "https://esm.sh/lodash-es@4.17.21/debounce.js",
+    "js-yaml": "https://esm.sh/js-yaml@4.1.0",
+    "react-dom/": "https://esm.sh/react-dom@18.2.0/",
+    "react/": "https://esm.sh/react@18.2.0/",
+    "lodash-es/": "https://esm.sh/lodash-es@^4.17.21/",
+    "react-dom": "https://esm.sh/react-dom@^19.1.0"
+  }
+}
+</script>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>

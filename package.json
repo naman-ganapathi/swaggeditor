@@ -1,0 +1,27 @@
+{
+  "name": "swaggeditor-v6.3",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom/client": "18.2.0",
+    "lodash-es/get": "4.17.21",
+    "lodash-es/set": "4.17.21",
+    "lodash-es/cloneDeep": "4.17.21",
+    "lodash-es/debounce": "4.17.21",
+    "js-yaml": "4.1.0",
+    "react-dom": "^19.1.0",
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0"
+  }
+}

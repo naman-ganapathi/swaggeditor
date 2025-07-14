@@ -1,0 +1,6 @@
+{
+  "name": "swaggeditor v6.3",
+  "description": "A powerful, interactive tool for developers to create, view, and edit OpenAPI (v3) specifications in real-time. It features a side-by-side view with a raw text editor and a rendered, interactive UI for live documentation editing.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
